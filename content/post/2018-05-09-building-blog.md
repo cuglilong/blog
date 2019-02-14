@@ -20,13 +20,39 @@ comments: true
 
 ### 2.3 软件安装
 #### 1) Git软件的安装
+- Ubuntu系统 <br>
+
+```
+sudo apt-get install git
+```
+
+- Centos系统<br>
+
+```
+sudo yum install git
+```
+
 #### 2）Hugo软件的安装
+- 在[Hugo官网](https://github.com/gohugoio/hugo/releases)上下载  **.tar.gz**  包
+- 解压可获得二进制包<br>
+
+```
+tar -zxvf hugo_0.54.0_Linux-64bit.tar.gz
+```
+
+- 将解压出的二进制包 **hugo** 移动到/bin文件夹下<br>
+
+```
+sudo mv hugo /bin
+```
+
 #### 3）Github账户申请
 ## 3.生成静态博客
-
+git
 ## 4.部署在Github上
 
 ## 5.博客编写
+
 ```
 hugo new post/blog.md
 hugo --theme=blackburn --buildDrafts --baseUrl="https://cuglilong.github.io/"
